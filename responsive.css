@@ -9,20 +9,18 @@
         flex-direction: column;
     }
     .menu-mobile{
-        display: block;
+        display: flex;
     }
-    .body{
-        clear: both;
-    }
+.a {
+    display: flex;
+}
     .body .img {
         width: 50%;
         height: 200px;
-        float: left;
     }
     .desc{
         width: 45%;
         margin-left: 5%;
-        float: right;
     }
 }
 @media screen and (max-width:360px)  {
@@ -37,15 +35,11 @@
         justify-content: center;
     }
     .menu-mobile{
-        display: block;
+        display: flex;
         width: 30%;
     }
     h1{
         font-size: 1.5rem;
-    }
-    .body{
-        clear: both;
-        margin-top: 78px;
     }
     .desc{
         margin-top: 0;

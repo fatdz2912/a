@@ -40,16 +40,18 @@
     font-size: 1.5em;
     text-decoration: none;
 }
+.cha-mobile{
+    display: flex;
+    justify-content: flex-end;
+}
 .menu-mobile{
     width: 20%;
     margin-top: 30px;
     padding: 7px 13px;
     background-color: black;
-    display: flex;
+    display: none;
     gap: 10px;
     border-radius: 3px;
-    float: right;
-    display: none;
 }
 .menu-mobile i ,
 .menu-mobile span{
